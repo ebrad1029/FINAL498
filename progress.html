@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+  </head>
+  <body>
+    <div class = "container">
+      <div class = "nav">
+        <div class = "nav-link">
+          <a href = "index.html"> HOME </a>
+        </div>
+        <div class = "nav-link">
+          <a href = "progress.html"> METHODS </a>
+        </div>
+        <div class = "nav-link">
+          <a href = "results.html"> RESULTS </a>
+        </div>
+        <div class = "nav-link">
+          <a href = "aboutus.html"> ABOUT US </a>
+        </div>
+      </div>
+
+      <div class = "intro-title">
+      <img src = methods.png width="1200" height="500">
+      </div>
+      <div class="hr">
+      </div>
+      <div class="body">
+
+        <div class  = "intro">
+          <h2>HOW WE DID IT</H2>
+          To acheive the research and results Statefarm needed, each one of us
+          worked on different aspects of this analysis.
+
+          <br> To begin, Alex Carney wrote a program in the Python language that
+          retrieved, processed, cleaned, and analyzed the tweets. He used various
+          libraries including Textblob, GetOldTweets3, and preprocessor.
+          The program retrieved upwards of 133,000 tweets and most of my development
+          time was focused on piecing together libraries to create his own script
+          that wasn't bound by the limitations of the Twitter API.
+
+          <br>Once we had enough data to work with, Amanda Delargy worked with the
+          language Python as well to create the time series graph with the
+          range slider. In her program, She imported the libraries: pandas,
+          matplotlib,and plotly to turn a csv file into a dataframe and then to
+          put that dataframe into a line graph. These libraries were also used
+          to update the layout of the graph so it would include interactive
+          buttons and a range slider.
+        </div>
+      </div>
+      <div class = "logo-wrapper">
+        <div class = "sf_logo">
+          <img src = statefarm_logo.png width= "280">
+        </div>
+
+        <div class = "ua_logo">
+          <img src = ua_logo.png height = "110">
+        </div>
+      </div>
+    </body>

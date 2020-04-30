@@ -1,0 +1,119 @@
+.container {
+  margin: 0px;
+  font-family: Lato;
+}
+
+/* navgivation styles */
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 35px;
+  font-size: 1.1em;
+}
+
+.nav-link {
+  height: 20px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom: 0.5s;
+}
+
+.nav-link a {
+  color:black;
+  transition: color 0.5s;
+}
+/* navigation styles end */
+
+/* nav hover styles */
+.nav-link: hover {
+  border-bottom: 1px solid #ff0000;
+}
+
+.nav-link a: hover {
+  color: #ff0000;
+}
+/* nav hover styles end */
+
+/* graphic title */
+.intro-title {
+  display: block;
+  text-align: center;
+  width: 50%
+  max-height: 50%;
+  margin-bottom: 20px;
+}
+/* graphic title ends */
+
+/* line breaks */
+.hr {
+    border: 1px solid black;
+    margin: auto;
+    width: 50%
+  }
+/* line breaks ends*/
+
+
+/* text formatting */
+.body {
+  margin: auto;
+  font-size: 17px;
+  line-height: 1.7em;
+  padding: 10px;
+  font-family: Lato;
+}
+
+#home_intro1 {
+  margin-top: 20px;
+  width: 600px;
+  float: left;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #d7d8d9;
+  padding: 40px;
+}
+#home_intro2 {
+  margin-top: 20px;
+  float: right;
+  width: 600px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #d7d8d9;
+  padding: 40px;
+}
+
+.intro {
+  margin: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #d7d8d9;
+  padding: 40px;
+}
+
+h2 {
+  text-align: center;
+}
+/* end text formatting */
+
+/* logo styles */
+.logo-wrapper {
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.ua_logo {
+  float:left;
+}
+.sf_logo {
+  float:right;
+}
+/* end logo formatting */
+
+/* line breaks */
+.hr {
+    border: 1px solid black;
+    margin: auto;
+    width: 50%
+  }
